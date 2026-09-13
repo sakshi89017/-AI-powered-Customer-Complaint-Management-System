@@ -1,0 +1,6 @@
+Complaint Form - Distribution Center
+Product: OsteoCalm Tablets
+Batch: OC-4490
+Date: 2026-09-01
+Issue: Quantity Discrepancy
+Description: We ordered 500 bottles of OsteoCalm Tablets. The invoice says 500, but upon physical count, there are only 450 bottles in the shipment. The shrink wrap was intact, suggesting it was packed short at the facility. Please issue a credit for the missing 50 bottles.

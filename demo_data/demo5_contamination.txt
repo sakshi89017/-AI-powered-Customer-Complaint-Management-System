@@ -1,0 +1,6 @@
+Customer: Westside Clinic
+Date: 2026-09-05
+Product: Sterile Water for Injection, 10ml
+Batch: SW-2026-X
+Description: 
+We discovered dark particulate matter floating inside 3 sealed ampoules of Sterile Water for Injection from Batch SW-2026-X. This is a severe contamination risk. We have stopped using the batch immediately. Please investigate as this may require a widespread recall.

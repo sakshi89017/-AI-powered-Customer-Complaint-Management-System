@@ -1,0 +1,25 @@
+# Final Submission Checklist
+
+- [x] React
+- [x] Redux Toolkit
+- [x] FastAPI
+- [x] Python
+- [x] PostgreSQL
+- [x] LangGraph
+- [x] Groq
+- [x] gemma2-9b-it
+- [x] Log Complaint
+- [x] Edit Complaint
+- [x] Document Extraction
+- [x] AI Risk Assessment
+- [x] Complaint CRUD
+- [x] Audit Trail
+- [x] Demo Data
+- [x] Tests
+- [x] README
+- [x] .env.example
+- [x] .gitignore
+- [x] No secrets
+- [x] Frontend builds
+- [x] Backend starts
+- [x] End-to-end demo verified

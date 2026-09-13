@@ -1,0 +1,134 @@
+.dashboard {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard__header {
+  margin-bottom: 2rem;
+}
+
+.dashboard__title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.dashboard__subtitle {
+  color: var(--text-muted);
+  font-size: 1.125rem;
+}
+
+.dashboard__error-banner {
+  background-color: #fef2f2;
+  color: #b91c1c;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  border: 1px solid #fca5a5;
+}
+
+.dashboard__loading {
+  background-color: #f0fdfa;
+  color: #0f766e;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  border: 1px solid #5eead4;
+}
+
+.dashboard__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.dashboard__grid--small {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.dashboard__card {
+  background-color: var(--surface-color);
+  padding: 1.5rem;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard__card--primary {
+  border-left: 4px solid var(--primary-color);
+}
+
+.dashboard__card--critical {
+  border-left: 4px solid #dc2626; /* red */
+}
+
+.dashboard__card--high {
+  border-left: 4px solid #d97706; /* amber */
+}
+
+.dashboard__card-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard__card-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.dashboard__section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  color: var(--text-color);
+}
+
+.dashboard__split {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.dashboard__split-left {
+  flex: 3;
+}
+
+.dashboard__split-right {
+  flex: 1;
+}
+
+.dashboard__actions-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dashboard__recent-table-container {
+  background-color: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow-x: auto;
+}
+
+.dashboard__recent-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  color: var(--text-muted);
+}

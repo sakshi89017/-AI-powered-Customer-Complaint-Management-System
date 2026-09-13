@@ -1,0 +1,106 @@
+/* ==========================================================================
+   Design tokens
+   A clinical, precise palette for a pharmaceutical QMS tool: cool slate/navy
+   for the record-of-truth form, a distinct teal for the AI co-pilot so the
+   two panels never get visually confused, and a fixed severity/priority
+   color scale that matches real QMS conventions (not decorative).
+   ========================================================================== */
+:root {
+  /* Base surfaces */
+  --color-bg: #F4F6F8;
+  --color-surface: #FFFFFF;
+  --color-surface-sunken: #EEF1F4;
+  --color-border: #DDE3EA;
+  --color-border-strong: #C4CDD8;
+
+  /* Text */
+  --color-ink: #101828;
+  --color-ink-muted: #5B6472;
+  --color-ink-faint: #8A93A2;
+
+  /* Brand / form panel */
+  --color-primary: #1E3A5F;
+  --color-primary-dark: #142842;
+  --color-primary-soft: #E7EDF4;
+
+  /* AI co-pilot accent */
+  --color-accent: #0D8A82;
+  --color-accent-dark: #0A6E68;
+  --color-accent-soft: #E4F5F3;
+
+  /* Status / severity scale */
+  --color-critical: #B42318;
+  --color-critical-soft: #FBEAE9;
+  --color-high: #C4501C;
+  --color-high-soft: #FCEEE4;
+  --color-medium: #B7791F;
+  --color-medium-soft: #FBF2DF;
+  --color-low: #15803D;
+  --color-low-soft: #E7F5EC;
+  --color-info: #2563AC;
+  --color-info-soft: #E8F0FA;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  --shadow-panel: 0 1px 2px rgba(16, 24, 40, 0.04), 0 1px 3px rgba(16, 24, 40, 0.06);
+  --shadow-raised: 0 4px 12px rgba(16, 24, 40, 0.08);
+
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--color-bg);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-family: var(--font-sans);
+  letter-spacing: -0.01em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: var(--color-accent-soft);
+}
+
+/* Scrollbars: quiet, not the browser default chunky bar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}

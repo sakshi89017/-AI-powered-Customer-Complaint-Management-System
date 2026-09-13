@@ -1,0 +1,11 @@
+Date: 2026-08-15
+Customer: Northside Pharmacy
+Product: CardioPlus 100mg
+Batch: CP-99230
+Quantity Affected: 12 boxes
+
+Dear QA Team,
+We received a shipment today and noticed that 12 boxes of CardioPlus 100mg were completely crushed. The primary blister packs inside seem punctured in some cases. Please advise on return and replacement.
+Regards,
+John Smith
+Northside Pharmacy

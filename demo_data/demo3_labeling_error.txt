@@ -1,0 +1,9 @@
+From: Central Hospital Pharmacy
+Date: Oct 2, 2026
+Subject: Urgent - Labeling Error on Vaxiclor
+Product: Vaxiclor 500mg IV
+Batch: VX-8811A
+Quantity Affected: 200 vials
+
+To Whom It May Concern,
+We have identified a critical labeling issue with batch VX-8811A of Vaxiclor. The secondary packaging states 500mg, but the vials themselves are labeled as 250mg. This could lead to serious under-dosing. We have quarantined the batch. Please initiate an urgent recall/investigation.
